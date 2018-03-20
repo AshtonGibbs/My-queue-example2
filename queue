@@ -1,0 +1,26 @@
+/*Ashton Gibbs
+*3/20/18
+*CSC 234
+*This program is an example of how to implement queue
+*/
+import java.util.Queue;
+import java.util.LinkedList;
+
+public class myqueueExample {
+
+	public static void main(String[] args) {
+		
+		Queue<String> family = new LinkedList<String>(); //create a new queue
+		
+		family.add("mom"); // Add Mom to the family queue
+		family.add("Dad");// Add Dad to the family queue
+		family.add("Brother");// Add Brother to the family queue
+		family.add("Sister");// Add Sister to the family queue
+		
+		System.out.println(family);// shows content of the queue
+		
+		family.remove();// remove an item from the queue
+		
+		System.out.println(family);// shows content of the queue
+	}
+}
